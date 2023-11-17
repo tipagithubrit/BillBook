@@ -1,6 +1,8 @@
 import { createContext, useState, useEffect } from "react";
 import netlifyIdentity from "netlify-identity-widget";
 
+
+
 const AuthContext = createContext({
   user: null,
   login: () => {},
@@ -28,8 +30,8 @@ export const AuthContextProvider = ({ children }) => {
     netlifyIdentity.init();
 
     return () => {
-      netlifyIdentity.off("login");
-      netlifyIdentity.off("logout");
+      netlifyIdentity.on("login");
+      netlifyIdentity.on("logout");
     };
   }, []);
 
