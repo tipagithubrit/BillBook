@@ -1,5 +1,5 @@
 import { CreateAccount, LogIn } from "../buttons"
-import hero from "../images/invoicerv2.png"
+import hero from "../images/Screenshot123.png"
 
 export default function Home() {
   return (
