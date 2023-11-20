@@ -8,7 +8,7 @@ export default function About() {
         <div className="max-width">
           <div className="overlay">
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center mb-3 text-slate-800 lg:mb-8">
-              About
+              About BillBook
             </h1>
             <p className="text-slate-700 text-center text-xl lg:w-2/3 lg:mx-auto">
             BillBook is an Invoicing application designed and built by Karan mehra & team,

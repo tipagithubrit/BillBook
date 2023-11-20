@@ -10,7 +10,7 @@ export const navbar = [
   },
   {
     id: uuidv4(),
-    title: "About Invoicer",
+    title: "About BillBook",
     url: "/about",
   },
   {
