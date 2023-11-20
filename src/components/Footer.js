@@ -37,14 +37,14 @@ export default function Footer() {
       </footer>
 
       <p className="text-center px-5 mt-8 text-xs ">
-        Invoicer is built by{" "}
+        BillBook is built by{" "}
         <a
           href="https://tsbsankara.com"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          Karan mehra
+          Karan mehra & Team
         </a>
       </p>
     </>

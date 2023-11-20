@@ -99,7 +99,7 @@ export default function StateContext({ children }) {
 
   // Use collect.js to calculate the total amount of items in the table. This is a much better function than the commented one above.
   const calculateTotal = () => {
-    const allItems = list.map((item) => item.price);
+    const allItems = list.map((item) => item.amount);
 
     setTotal(collect(allItems).sum());
   };
