@@ -39,7 +39,7 @@ export default function Footer() {
       <p className="text-center px-5 mt-8 text-xs ">
         BillBook is built by{" "}
         <a
-          href="https://tsbsankara.com"
+          href="https://www.instagram.com/jelly_10___/"
           target="_blank"
           rel="noreferrer"
           className="underline"

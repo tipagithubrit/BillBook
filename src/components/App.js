@@ -264,7 +264,7 @@ function App() {
                 Print / Download
               </button>
             )}
-            content={() => componentRef.current}
+            // content={() => componentRef.current}
           />
           <div ref={componentRef} className="p-5">
             <Header />

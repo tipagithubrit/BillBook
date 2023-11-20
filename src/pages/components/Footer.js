@@ -43,12 +43,12 @@ export default function Footer() {
           <p className="text-slate-200">
             Built by{" "}
             <a
-              href="https://x.com/YogeshBhatt23?t=yiTqCr7IUG96SF_LEUltYw&s=08 "
+              href="https://x.com/YogeshBhatt23?t=yiTqCr7IUG96SF_LEUltYw&s=08"
               target="_blank"
               rel="noreferrer"
               className="underline hover:text-slate-50"
             >
-              Karan Mehra 
+              Karan Mehra & Team
             </a>
           </p>
         </footer>
