@@ -48,7 +48,7 @@ export default function Footer() {
               rel="noreferrer"
               className="underline hover:text-slate-50"
             >
-              Karan Mehra & Team
+              Karan Mehra 
             </a>
           </p>
         </footer>
