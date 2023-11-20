@@ -27,9 +27,9 @@ export default function Header() {
     <>
       <header className="p-5 flex items-center justify-between xl:max-w-7xl lg:mx-auto 2xl:px-0">
         <div>
-          {/* <h2 className="font-bold text-4xl text-gray-800">
-            <Link to="/">Invoicer</Link>
-          </h2> */}
+          { <h2 className="font-bold text-4xl text-gray-800">
+            <Link to="/">BillBook</Link>
+          </h2>}
         </div>
 
         <nav className="navbar">
