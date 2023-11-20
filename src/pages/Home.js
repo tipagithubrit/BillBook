@@ -21,7 +21,7 @@ export default function Home() {
               </article>
               <p className="text-slate-700 mt-5 md:mt-0 mb-5 text-center md:text-left">
                 Easily create, download and print invoices for your clients. No
-                more unsurety, just Wrap It!
+                more unsurety, just  It!
               </p>
 
               <ul className="flex flex-wrap items-center justify-center md:justify-start">
