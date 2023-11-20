@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { CreateAccount, LogIn, DonateButton } from "../../buttons"
+import { CreateAccount, LogIn } from "../../buttons"
 
 export default function Footer() {
   return (
@@ -8,13 +8,13 @@ export default function Footer() {
         <div className="slant-footer"></div>
         <footer className="max-width grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
           <div>
-            <h2 className="text-white text-3xl">Invoicer</h2>
+            <h2 className="text-white text-3xl">BillBook</h2>
           </div>
 
           <ul className="">
             <li>
               <Link to="/about" className="text-white">
-                About Invoicer
+                About BillBook
               </Link>
             </li>
             <li className="my-3">
@@ -36,19 +36,19 @@ export default function Footer() {
             <li className="my-5">
               <LogIn />
             </li>
-            <li>
+            {/* <li>
               <DonateButton />
-            </li>
+            </li> */}
           </ul>
           <p className="text-slate-200">
             Built by{" "}
             <a
-              href="https://tsbsankara.netlify.app"
+              href="https://x.com/YogeshBhatt23?t=yiTqCr7IUG96SF_LEUltYw&s=08 "
               target="_blank"
               rel="noreferrer"
               className="underline hover:text-slate-50"
             >
-              Thomas Sankara
+              Karan Mehra & Team
             </a>
           </p>
         </footer>

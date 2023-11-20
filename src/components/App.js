@@ -114,7 +114,7 @@ function App() {
                 </div>
 
                 <div className="flex flex-col">
-                  <label htmlFor="phone">Enter your phone</label>
+                  <label htmlFor="phone">Enter your phone number</label>
                   <input
                     type="text"
                     name="phone"

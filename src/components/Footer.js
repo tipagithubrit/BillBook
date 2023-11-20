@@ -44,7 +44,7 @@ export default function Footer() {
           rel="noreferrer"
           className="underline"
         >
-          Thomas Sankara
+          Karan mehra
         </a>
       </p>
     </>

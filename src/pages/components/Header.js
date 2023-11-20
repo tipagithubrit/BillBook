@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react"
 import { Link } from "react-router-dom"
 import AuthContext from "../../context/auth"
 import { navbar } from "../../data/data"
-import { CreateAccount, DonateButton, LogOut } from "../../buttons"
+import { CreateAccount,  LogOut } from "../../buttons"
 
 export default function Header() {
   const [links] = useState(navbar)
@@ -45,9 +45,9 @@ export default function Header() {
             ))}
 
             <li>{user ? <LogOut /> : <CreateAccount />}</li>
-            <li>
+            {/* <li>
               <DonateButton />
-            </li>
+            </li> */}
           </ul>
         </nav>
 

@@ -20,7 +20,7 @@ export default function Testimonials() {
               </article>
 
               <article>
-                <a href="https://twitter.com/tsbsankara">{icon}</a>
+                <a href="https://x.com/YogeshBhatt23?t=yiTqCr7IUG96SF_LEUltYw&s=08 ">{icon}</a>
               </article>
             </div>
           </article>
